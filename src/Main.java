@@ -1,22 +1,22 @@
 public class Main{
     public static void main(String[] args){
         // Задание номер 1
-        int age = 22;
+        int age;
         if(age >= 18){
             System.out.println(" Если возраст человека равен " + age + " то он совершеннолетний");
         } else System.out.println(" Если возраст человека равен " + age + " то он несовершеннолетний, нужно немного подождать ");
         // Задание номер 2
-        int temperature = 10;
+        int temperature;
         if (temperature < 5){
             System.out.println(" На улице" +temperature+ "градусов, нужно надеть шапку ");}
         else            System.out.println(" На улице" +temperature+ "градусов,можно идти без шапки ");
         // Задание номер 3
-        int speed = 100;
+        int speed;
         if (speed > 60)
             System.out.println(" Если скорость "+speed+ "то придется платить штраф ");
         else System.out.println(" Если скорость "+speed+ " можно ездить спокойно ");
         // Задание номер 4
-        int agePeople=22;
+        int agePeople;
         if (agePeople > 2 && agePeople < 6)
             System.out.println("Если возраст человека равен" +agePeople+ ", то ему нужно ходить в детский сад");
         if (agePeople > 7 && agePeople < 17)
@@ -26,7 +26,7 @@ public class Main{
         if (agePeople > 24)
             System.out.println("Если возраст человека равен" +agePeople+ ", то ему нужно ходить на работу");
         // Задание номер 5
-        int ageChildren = 10;
+        int ageChildren;
         if (ageChildren < 5)
             System.out.println(" Если возвраст ребенка равен " +ageChildren+ " то ему нельзя кататься на атракционе ");
         if (ageChildren > 5 && ageChildren <= 14 )
@@ -34,9 +34,9 @@ public class Main{
         if (ageChildren > 14)
             System.out.println(" Если возвраст ребенка равен " +ageChildren+ " то он может кататься без сопровождения взрослого.");
         // Задание номер 6
-        int people = 66;
+        int people;
         if (people < 102) {
-            int seatingPosition = 20;
+            int seatingPosition;
             if (seatingPosition < 60)
                 System.out.println(" В вагоне есть сидячие место ");
             else System.out.println(" В вагоне есть стоячие место ");
@@ -53,6 +53,4 @@ public class Main{
         if (three > one && three > two)
             System.out.println(three);
     }
-
-
 }
