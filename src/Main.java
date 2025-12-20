@@ -37,22 +37,23 @@ public class Main{
         int people;
         if (people < 102) {
             int seatingPosition;
-            if (seatingPosition < 60)
-                System.out.println(" В вагоне есть сидячие место ");
-            else System.out.println(" В вагоне есть стоячие место ");
+            if (seatingPosition < 60){
+                System.out.println(" В вагоне есть сидячие место ");}
+            else {System.out.println(" В вагоне есть стоячие место ");}
         }
         else {System.out.println(" Вагон уже полностью забит ");}
         // Задание номер 7
-        int one; // 5
-        int two; // 2
-        int three; //5
+        int one = 5; // 5
+        int two = 2; // 2
+        int three = 5; //5
         if (one >= two && one >= three){
             System.out.println(one);}
-        if (two >= one && two >= three){
+        else if (two >= one && two >= three){
             System.out.println(two);}
-        if (three >= one && three >= two){
+        else if (three >= one && three >= two){
             System.out.println(three);}
-        if (one == two && two == three){
+        else if (one == two && two == three){
             System.out.println(two);}
+        else {System.out.println(" Error ")}
     }
 }
